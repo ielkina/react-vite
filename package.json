@@ -1,0 +1,20 @@
+{
+  "name": "react-vite",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ielkina/react-vite/",
+  "bugs": {
+    "url": "https://github.com/ielkina/react-vite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ielkina/react-vite.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
