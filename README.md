@@ -40,3 +40,5 @@ export default defineConfig({
 ```
 npm run deploy
 ```
+
+В main.tsx в компонет HistoryRouter добавить пропс basename = ' передаем путь относительно которого будет строиться маршрутизацияя /react-vite '
