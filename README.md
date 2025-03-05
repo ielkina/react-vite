@@ -20,11 +20,12 @@ npm install gh-pages --save-dev
 package.json
 
 ```json
-"scripts": {
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+  "homepage": "https://ielkina.github.io/react-vite/",
+  "scripts": {
+    "build": "vite build",
+    "pre deploy": "npm run build",
+    "deploy": "npm run build gh-pages -d dist"
+  }
 ```
 
 vite.config.js
