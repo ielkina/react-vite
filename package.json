@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ielkina.github.io/react-vite/",
+  "homepage": "https://ielkina.github.io/react-vite",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
+  
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.26.2",
+    "history": "5.3.0",
+    "axios": "^0.27.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -37,5 +41,12 @@
     "sass": "^1.85.1",
     "vite": "^6.2.0",
     "vite-plugin-babel": "^1.3.0"
+  },
+  "json-comments": {
+    "tips": "Установите плагин JsonComments, чтобы активировать возможность комментирования для файлов JSON. См.: https://github.com/zhangfisher/json_comments_extension",
+    "package.json": {
+      "type": "!",
+        "deploy": "gh-pages -d dist"
+    }
   }
 }
