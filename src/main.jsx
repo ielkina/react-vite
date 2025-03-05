@@ -6,11 +6,11 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Provider>
+    {/* <Provider> */}
       {/* <HistoryRouter history={browserHistory} basename="/react-vite"> */}
       {/* <ToastContainer/> */}
       <App />
       {/* </HistoryRouter> */}
-    </Provider>
+    {/* </Provider> */}
   </React.StrictMode>
 );
