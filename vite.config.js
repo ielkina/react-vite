@@ -4,7 +4,6 @@ import postcssImport from "postcss-import";
 import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 import combineDuplicatedSelectors from "postcss-combine-duplicated-selectors";
-// import { environments } from "eslint-plugin-vue";
 // import path from "path";
 
 const ReactCompilerConfig = {
