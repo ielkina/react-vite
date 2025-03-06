@@ -1,10 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import path from "path";
 import postcssImport from "postcss-import";
 import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 import combineDuplicatedSelectors from "postcss-combine-duplicated-selectors";
-// import path from "path";
 
 const ReactCompilerConfig = {
   presets: ["@babel/preset-react"],
@@ -32,7 +32,8 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         //настройка относительных путей в проекте
-        // src: path.resolve(__dirname, "src"),
+        // eslint-disable-next-line no-undef
+        src: path.resolve(__dirname, "src/"),
         // App: path.resolve(__dirname, "src/App/"),
         // components: path.resolve(__dirname, "src/App/components/"),
         // data: path.resolve(__dirname, "src/data/"),
